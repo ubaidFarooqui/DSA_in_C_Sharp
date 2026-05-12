@@ -24,10 +24,10 @@ namespace DSA
             //normalTriangle4.normalTriangle4();
 
             //Pyramid pyramid = new Pyramid();
-            //pyramid.pyramid();
+            //pyramid.pyramid(); 
 
-            numberadditon numberadditon = new numberadditon();
-            numberadditon.numberaddition();
+            //numberadditon numberadditon = new numberadditon();
+            //numberadditon.numberaddition();
             Console.ReadLine();
         }
     }

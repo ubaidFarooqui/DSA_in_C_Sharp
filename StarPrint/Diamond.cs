@@ -49,7 +49,7 @@ namespace StarPrint
         }
     }
 }
-
+ 
 /*
  Expected Output:
  Enter rows: 6
