@@ -74,11 +74,21 @@ namespace DSA
             //AddOne addOne = new AddOne();
             //List<int> ans = addOne.addOne(arr2);
 
-            int[] arr1 = { 1, 2, 3, 4 };
-            int[] arr2 = { 5, 6, 7 };
-            AddTwoArrays addTwoArrays = new AddTwoArrays();
-            addTwoArrays.addTwoArrays(arr1, arr2);
+            //int[] arr1 = { 1, 2, 3, 4 };
+            //int[] arr2 = { 5, 6, 7 };
+            //AddTwoArrays addTwoArrays = new AddTwoArrays();
+            //addTwoArrays.addTwoArrays(arr1, arr2);
 
+            // int[] arr1 = { 1, 3, 5, 7 };
+            // int[] arr2 = { 2, 4, 6, 8, 9 };
+            // int[] arr3 = new int[arr1.Length + arr2.Length];
+
+            //MergeTwoSortedArray mergeTwoSortedArray = new MergeTwoSortedArray();
+            //mergeTwoSortedArray.MergeArray(arr3, arr1, arr2);
+
+            int[] arr1 = { 0, 2, 2, 2, 1, 1, 0, 1, 0, 2, 1, 0 };
+            Sorted0s1sand2s sorted0s1sand2s = new Sorted0s1sand2s();
+            sorted0s1sand2s.sort0s1sand2s(arr1);
 
             Console.ReadKey();
 
