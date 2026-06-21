@@ -12,9 +12,9 @@ namespace Arrays
         public void rotateArray(int[] arr, int d) { 
             int n = arr.Length;
             d = d % n; // Handle cases where d is greater than n
-            reverseArray(arr, 0, d - 1);
-            reverseArray(arr, d, n - 1);
-            reverseArray(arr, 0, n - 1);
+            reverseArray(arr, 0, d - 1);  // d is the number of elements to be rotated
+            reverseArray(arr, d, n - 1); // from d to the end of the array
+            reverseArray(arr, 0, n - 1); // reverse the entire array
         }
 
         public void reverseArray(int[] arr, int start, int end)

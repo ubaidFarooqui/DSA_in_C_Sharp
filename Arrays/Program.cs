@@ -37,7 +37,7 @@ namespace DSA
             //addMultiply.addMultiply(arr);
             //Console.WriteLine("Modified array: " + string.Join(", ", arr));
 
-            int[] arr = { 1, 2, -3, 0, 9 };
+            //int[] arr = { 1, 2, -3, 0, 9 };
             //Console.WriteLine("Unsorted array: " + string.Join(", ", arr));
             //Console.Write("Enter a number to check if it exists in the array: ");
 
@@ -57,18 +57,28 @@ namespace DSA
             //reverseArray.reverseArray(arr);
             //Console.WriteLine("Reversed array: " + string.Join(", ", arr));
 
-            RotateArray rotateArray = new RotateArray();
-            Console.WriteLine("Original array: " + string.Join(", ", arr));
-            rotateArray.rotateArray(arr, 2);
-            Console.WriteLine("Rotated array: " + string.Join(", ", arr));
+            //RotateArray rotateArray = new RotateArray();
+            //Console.WriteLine("Original array: " + string.Join(", ", arr));
+            //rotateArray.rotateArray(arr, 2);
+            //Console.WriteLine("Rotated array: " + string.Join(", ", arr));
 
             ///int[] arr2 = [1, 2, 3, 4, 5, 6, 8]; // 7 is missing
             //MissingNunmberInArray missingNunmberInArray = new MissingNunmberInArray();
             //missingNunmberInArray.missingNumberInAray(arr2);
 
-            //int[] arr0and1 =  { 0, 1, 0, 1, 1, 0, 0, 1 };
+            //int[] arr0and1 = { 0, 1, 0, 1, 1, 0, 0, 1 };
             //Segregate0and1 segregate0and1 = new Segregate0and1();
             //segregate0and1.segregate0and1(arr0and1);
+
+            //int[] arr2 = [1, 2, 3, 4, 5, 6, 7, 8];
+            //AddOne addOne = new AddOne();
+            //List<int> ans = addOne.addOne(arr2);
+
+            int[] arr1 = { 1, 2, 3, 4 };
+            int[] arr2 = { 5, 6, 7 };
+            AddTwoArrays addTwoArrays = new AddTwoArrays();
+            addTwoArrays.addTwoArrays(arr1, arr2);
+
 
             Console.ReadKey();
 
